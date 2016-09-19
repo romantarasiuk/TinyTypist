@@ -11,8 +11,8 @@ var h = window.innerHeight
 var i = 0;
 
 function handle(e) {
-  console.log('keycode:' + e.keyCode);
-  if (e.type == 'keypress' || e.type == 'keyup') return;
+  if (e.type == 'keydown') console.log('keycode:' + e.keyCode);
+  if (e.type == 'keypress' || e.type == 'keyup' || typeof faIcons[e.keyCode] == 'undefined') return;
   if (i > maxCountElements) {
     var parent = document.getElementById('returnArea');
     var child = document.getElementById('div' + (i - maxCountElements));
