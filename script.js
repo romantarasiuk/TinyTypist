@@ -25,8 +25,10 @@ function handle(e) {
   var size = getRandomInt(minSize,maxSize);
   var top = getRandomInt(0, (h-size));
   var left = getRandomInt(0, (w-size));
-  var text = '<div id="div' + i + '" style="border: 0px; position: fixed; width: ' + size + 'px; height: ' + size + 'px; left:'+left+'px; top:'+top+'px;">' + 
-    '<i class="' + faIcons[e.keyCode].icon + '" style="font-size:' + size + 'px; color:rgb(' + color + ');"></i></div>';
+  var text = '<div id="div' + i + '" style="border: 0px; position: fixed; width: ' + 
+    size + 'px; height: ' + size + 'px; left:'+left+'px; top:'+top+'px;">' + 
+    '<i class="fa fa-' + faIcons[e.keyCode].icon + '" style="font-size:' + 
+    size + 'px; color:rgb(' + color + ');"></i></div>';
   var audio = new Audio('sounds/' + faIcons[e.keyCode].sound + '.mp3');
   audio.play();  
   document.getElementById('returnArea').innerHTML += text;
