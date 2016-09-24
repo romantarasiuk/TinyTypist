@@ -31,13 +31,13 @@ var faIcons = {
 	'189': {winKey: '-', icon: 'heartbeat', sound: 'heartbeat'},
 	'187': {winKey: '=', icon: 'gavel', sound: 'gavel'},
 	'8': {winKey: 'Backspace', icon: 'magic', sound: 'magic'},
-	'45': {winKey: 'Insert', icon: '', sound: ''},
-	'36': {winKey: 'Home', icon: '', sound: ''},
-	'33': {winKey: 'PageUp', icon: '', sound: ''},
-	'144': {winKey: 'NumLock', icon: '', sound: ''},
-	'111': {winKey: '/', icon: '', sound: ''},
-	'106': {winKey: '*', icon: '', sound: ''},
-	'109': {winKey: '-', icon: '', sound: ''},
+	'45': {winKey: 'Insert', icon: 'fire ', sound: 'fire'},
+	'36': {winKey: 'Home', icon: 'cogs', sound: 'cogs'},
+	'33': {winKey: 'PageUp', icon: 'gift', sound: 'magic2'},
+	'144': {winKey: 'NumLock', icon: 'headphones', sound: 'rap'},
+	'111': {winKey: '/', icon: 'key', sound: 'keys'},
+	'106': {winKey: '*', icon: 'lock', sound: 'lock'},
+	'109': {winKey: '-', icon: 'smile-o', sound: 'laugh'},
 
-	'9': {winKey: 'Tab', icon: '', sound: ''}
+	'9': {winKey: 'Tab', icon: 'star', sound: 'magic3'}
 };
