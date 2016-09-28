@@ -39,5 +39,25 @@ var faIcons = {
 	'106': {winKey: '*', icon: 'lock', sound: 'lock'},
 	'109': {winKey: '-', icon: 'smile-o', sound: 'laugh'},
 
-	'9': {winKey: 'Tab', icon: 'star', sound: 'magic3'}
+	'9': {winKey: 'Tab', icon: 'star', sound: 'magic3'},
+	'81': {winKey: 'Q', icon: 'mobile', sound: 'mobile-vibra'},
+	'87': {winKey: 'W', icon: 'motorcycle', sound: 'motorcycle'},
+	'69': {winKey: 'E', icon: 'microphone', sound: 'microphone'},
+	'82': {winKey: 'R', icon: 'life-ring', sound: 'help'},
+	'84': {winKey: 'T', icon: 'print', sound: 'printer-matrix'},
+	'89': {winKey: 'Y', icon: 'pencil', sound: 'pensil'},
+	'85': {winKey: 'U', icon: 'rocket', sound: 'rocket'},
+	'73': {winKey: 'I', icon: 'ship', sound: 'ship-alarm'},
+	'79': {winKey: 'O', icon: 'subway', sound: 'subway'},
+	'80': {winKey: 'P', icon: 'money', sound: 'cash'},
+	'219': {winKey: '[', icon: 'scissors', sound: 'scissors'},
+	'221': {winKey: ']', icon: 'eraser', sound: 'eraser'},
+	'13': {winKey: 'Enter', icon: 'keyboard-o', sound: 'keyboard'},
+	'46': {winKey: 'Delete', icon: 'file', sound: 'paper'},
+	'35': {winKey: 'End', icon: 'meh-o', sound: 'oy'},
+	'34': {winKey: 'PageDown', icon: 'users', sound: 'crowd'},
+	'103': {winKey: '7', icon: 'newspaper-o', sound: 'paper'},
+	'104': {winKey: '8', icon: 'paper-plane', sound: 'paper-cut'},
+	'105': {winKey: '9', icon: 'laptop', sound: 'keyboard'},
+	'107': {winKey: '+', icon: 'plug', sound: 'plug'}
 };
