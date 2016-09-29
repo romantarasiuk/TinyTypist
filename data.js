@@ -59,5 +59,25 @@ var faIcons = {
 	'103': {winKey: '7', icon: 'newspaper-o', sound: 'paper'},
 	'104': {winKey: '8', icon: 'paper-plane', sound: 'paper-cut'},
 	'105': {winKey: '9', icon: 'laptop', sound: 'keyboard'},
-	'107': {winKey: '+', icon: 'plug', sound: 'plug'}
+	'107': {winKey: '+', icon: 'plug', sound: 'plug'},
+	
+	'20': {winKey: 'CapsLock', icon: 'university', sound: 'fanfars'},
+	'65': {winKey: 'A', icon: 'calculator', sound: 'keyboard'},
+	'83': {winKey: 'S', icon: 'book', sound: 'book'},
+	'68': {winKey: 'D', icon: 'bug', sound: 'bug'},
+	'70': {winKey: 'F', icon: 'bed', sound: 'snoring'},
+	'71': {winKey: 'G', icon: 'bullhorn', sound: 'bullhorn'},
+	'72': {winKey: 'H', icon: 'briefcase ', sound: 'icq'},
+	'74': {winKey: 'J', icon: 'trophy', sound: 'fanfars2'},
+	'75': {winKey: 'K', icon: 'calendar', sound: 'reminder'},
+	'76': {winKey: 'L', icon: 'cube', sound: 'cubes-throw'},
+	'186': {winKey: ':', icon: 'file-image-o', sound: 'people'},
+	'222': {winKey: '\'', icon: 'graduation-cap', sound: 'fanfars2'},
+	'220': {winKey: '\\', icon: 'tachometer', sound: 'car-brakes'},
+	'100': {winKey: '4', icon: 'beer', sound: 'beer'},
+	'101': {winKey: '5', icon: 'hand-peace-o', sound: 'people'},
+	'102': {winKey: '6', icon: 'cubes', sound: 'cubes-throw'},
+	'12': {winKey: 'empty-5', icon: 'comment', sound: 'icq'}
+
+
 };
