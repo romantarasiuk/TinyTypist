@@ -77,7 +77,22 @@ var faIcons = {
 	'100': {winKey: '4', icon: 'beer', sound: 'beer'},
 	'101': {winKey: '5', icon: 'hand-peace-o', sound: 'people'},
 	'102': {winKey: '6', icon: 'cubes', sound: 'cubes-throw'},
-	'12': {winKey: 'empty-5', icon: 'comment', sound: 'icq'}
+	'12': {winKey: 'empty-5', icon: 'comment', sound: 'icq'},
 
-
+	'16': {winKey: 'Shift', icon: 'eye', sound: 'wow'},
+	'226': {winKey: '\\', icon: 'leaf', sound: 'leafs'},
+	'90': {winKey: 'Z', icon: 'paint-brush', sound: 'spray'},
+	'88': {winKey: 'X', icon: 'thumbs-o-up', sound: 'yahoo'},
+	'67': {winKey: 'C', icon: 'music', sound: 'fur-elise'},
+	'86': {winKey: 'V', icon: 'paw', sound: 'cat'},
+	'66': {winKey: 'B', icon: 'power-off', sound: 'switch'},
+	'78': {winKey: 'N', icon: 'volume-up', sound: 'music'},
+	'77': {winKey: 'M', icon: 'umbrella', sound: 'rain'},
+	'188': {winKey: ',', icon: 'thumbs-o-down', sound: 'discontent'},
+	'190': {winKey: '.', icon: 'tags', sound: 'cash'},
+	'191': {winKey: '/', icon: 'wheelchair-alt', sound: 'scratch'},
+	'38': {winKey: 'Up', icon: 'wrench', sound: 'repair'},
+	'97': {winKey: '1', icon: 'google-wallet', sound: 'pensil'},
+	'98': {winKey: '2', icon: 'linux', sound: 'pingvin'},
+	'99': {winKey: '3', icon: 'tree', sound: 'leafs'}
 };
