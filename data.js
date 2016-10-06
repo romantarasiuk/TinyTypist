@@ -94,5 +94,17 @@ var faIcons = {
 	'38': {winKey: 'Up', icon: 'wrench', sound: 'repair'},
 	'97': {winKey: '1', icon: 'google-wallet', sound: 'pensil'},
 	'98': {winKey: '2', icon: 'linux', sound: 'pingvin'},
-	'99': {winKey: '3', icon: 'tree', sound: 'leafs'}
+	'99': {winKey: '3', icon: 'tree', sound: 'leafs'},
+	
+    '17': {winKey: 'Ctrl', icon: 'ambulance', sound: 'ambulance'},
+    '91': {winKey: 'RWin', icon: 'windows', sound: 'windows'},
+    '18': {winKey: 'Alt', icon: 'dribbble', sound: 'basketball'},
+    '32': {winKey: 'Space', icon: 'spinner fa-pulse', sound: 'spin'},
+    '92': {winKey: 'LWin', icon: 'windows', sound: 'windows'},
+    '93': {winKey: 'SubMenu', icon: 'crosshairs', sound: 'eshut'},
+    '37': {winKey: 'Left', icon: 'trash', sound: 'trash'},
+    '40': {winKey: 'Down', icon: 'user-secret', sound: 'din'},
+    '39': {winKey: 'Right', icon: 'television', sound: 'footbal'},
+    '96': {winKey: '0', icon: 'sun-o', sound: 'sun'},
+    '110': {winKey: '.', icon: 'picture-o', sound: 'tada'}
 };
