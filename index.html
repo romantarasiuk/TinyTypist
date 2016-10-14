@@ -1,24 +1,31 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <title>TinyTypist</title>
-  <meta charset="utf-8">
-  <link rel='stylesheet' href='spectrum.css'>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
-</head>
-<body>
-<div id="returnArea"></div>
-<div id="prepare" title="Set parameters">
-  <input type='text' id="chooseColor"> 
-  <button id="butFantom">choose background</button><br><br>
-  <label for="chooseRotate">enable rotation</label>
-  <input type="checkbox" name="chooseRotate" id="chooseRotate"><br><br>
-</div>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src='spectrum.js'></script>
-<script src="data.js"></script>
-<script src="script.js"></script>
-</body>
+  <head>
+    <title>TinyTypist</title>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='spectrum.css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
+  </head>
+  <body>
+    <div id="returnArea"></div>
+    <div id="prepare" title="Set parameters:">
+      <input type='text' id="chooseColor"> 
+      <button id="butFantom">choose background</button><br><br>
+      <label for="chooseRotate">enable rotation</label>
+      <input type="checkbox" name="chooseRotate" id="chooseRotate"><br><br>
+      <label for="radio-1">Wait for sound</label>
+      <input type="radio" name="radio-1" id="radio-1" checked>
+      <label for="radio-2">No wait for sound</label>
+      <input type="radio" name="radio-1" id="radio-2">
+    </div>
+    <div id="loading" title="Loading" style="display: none;">
+      <div id="progressbar"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src='spectrum.js'></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
